@@ -1,0 +1,66 @@
+.contato{
+    background-color: white;
+    height: 55%;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px;
+    box-shadow: 10px;
+}
+.contato h2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contato form {
+    display: grid;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    position: relative;
+    left: 10%;
+    transform: translate(-50%);
+}
+
+.mensagem{
+    left: 80px;
+}
+
+textarea{
+    margin: 20px;
+    max-width: 560px; 
+    max-height: 200px;
+}
+
+input{
+    margin: 20px;
+    height: 30px;
+}
+
+#enviar{
+    height: 30px;
+    width: 100px;
+    background: #36015d;
+    color: white;
+    border: 2px;
+}
+
+#enviar:hover{
+    height: 31px;
+    width: 101px;
+    background: #36016d;
+    font-weight: bold;
+}
+
+#enviar {
+    position: relative;
+    left: 80%;
+}
